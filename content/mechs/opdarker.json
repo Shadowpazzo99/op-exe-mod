@@ -1,0 +1,31 @@
+{
+	"name": "darker",
+	"description": "a ship taken from shadowdustry but its op .",
+	"health": 99999,
+	"mass": 16,
+	"flying": true,
+	"speed": 3.0,
+	"weapon": 
+	{
+		"name": "router-gun",
+		"length": 3,
+		"width": 3,
+		"reload": 15,
+                             "alternate": true,
+		"shots": 1,
+		"shootCone": 0,
+		"inaccuracy": 0,
+		"shootSound": "shotgun",
+		"bullet": 
+		{
+			"speed": 6,
+			"damage": 99999,
+			"lifetime": 95,
+			"bulletHeight": 7,
+			"bulletWidth": 7
+		},
+		"keepVelocity": true
+	},
+	"buildPower": 1.15,
+	"itemCapacity": 65
+}
