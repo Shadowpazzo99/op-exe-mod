@@ -10,10 +10,10 @@
 		"name": "router-gun",
 		"length": 3,
 		"width": 3,
-		"reload": 15,
+		"reload": 9,
                              "alternate": true,
-		"shots": 1,
-		"shootCone": 0,
+		"shots": 7,
+		"shootCone": 7,
 		"inaccuracy": 0,
 		"shootSound": "shotgun",
 		"bullet": 
@@ -26,6 +26,6 @@
 		},
 		"keepVelocity": true
 	},
-	"buildPower": 1.15,
-	"itemCapacity": 65
+	"buildPower": 999999,
+	"itemCapacity": 9999
 }
