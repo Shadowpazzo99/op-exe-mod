@@ -1,0 +1,20 @@
+{
+      "type": "separator",
+      "name": "op plaster",
+      "description": "just op.",
+       "itemCapacity": 9999,
+      "results": [
+	      
+			{"item": "plastanium", "amount": 500},
+          
+      ]
+      "size": 2,
+      "craftTime": 0.1,
+      "updateEffect": "smeltsmoke",  "requirements": [
+            { "item": "copper", "amount": 1 }
+      ],
+      "category": "crafting",
+      "research": "solar-panel",
+      "idleSound": "respawning",
+      "idleSoundVolume": 0.5
+}
