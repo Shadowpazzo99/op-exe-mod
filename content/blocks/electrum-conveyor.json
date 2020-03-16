@@ -2,6 +2,7 @@
 	"type": "Conveyor",
 	"name": "OP conveyor",
 	"description": "OP conveyor. Speed is insane.",
+               "health": 99999999999
 	"requirements": [],
 	"category": "distribution",
 	"speed": 120,

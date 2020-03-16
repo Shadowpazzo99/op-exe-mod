@@ -1,0 +1,43 @@
+type: ItemTurret
+name: sbruh
+description: sbruh.
+
+size: 2
+health: 99999
+range: 350
+ammoUseEffect: none
+maxAmmo: 100
+inaccuracy: 9
+rotatespeed: 12
+reload: 9
+shootSound: none
+	
+ammo: {
+	copper: {
+		speed: 8
+		damage: 70
+		bulletWidth: 11
+		bulletHeight: 11
+		shootEffect: shootSmall
+		smokeEffect: shootSmallSmoke
+		ammoMultiplier: 100
+	}
+	lead: {
+		speed: 8
+		damage: 70
+		bulletWidth: 11
+		bulletHeight: 11
+		frontColor: FFA500
+		backColor: FFA500
+		status: burning
+		statusDuration: 600
+		shootEffect: shootSmall
+		smokeEffect: shootSmallSmoke
+		ammoMultiplier: 100
+	}
+}
+requirements: [
+	scrap/0
+]
+category: turret
+alwaysUnlocked: true
