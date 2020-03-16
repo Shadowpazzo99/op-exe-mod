@@ -1,0 +1,16 @@
+{
+	"name": "green mother",
+	"description": "here is where the GrEeNess is created.",
+	"type": "UnitFactory",
+	"unitType": "green",
+	"size": 2,
+	"produceTime": 0,
+	"consumes": {
+		"power": 0,
+	},
+	"category": "units",
+	"research": "titan-factory",
+	"requirements": [
+		{ "item": "titanium", "amount": 0 }
+	]
+}

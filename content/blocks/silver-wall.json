@@ -1,0 +1,10 @@
+{
+	"name": "Silver Wall",
+	"description": "he thicc boi.",
+	"type": "Wall",
+	"health": 99999998993,
+	"size": 2,
+	"requirements": [],
+	"category": "defense",
+	"research": "copper-wall"
+}

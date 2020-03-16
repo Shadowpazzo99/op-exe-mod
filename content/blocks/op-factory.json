@@ -1,0 +1,16 @@
+{
+	"name": "op drones factory",
+	"description": "make drones bho.",
+	"type": "UnitFactory",
+	"unitType": "op-miner",
+	"size": 2,
+	"produceTime": 0,
+	"consumes": {
+		"power": 0,
+	},
+	"category": "units",
+	"research": "titan-factory",
+	"requirements": [
+		{ "item": "titanium", "amount": 0 }
+	]
+}

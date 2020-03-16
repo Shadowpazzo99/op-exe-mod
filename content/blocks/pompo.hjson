@@ -1,0 +1,16 @@
+name: pompo
+description: it pimp out oil XD
+health: 300
+type: SolidPump
+result: oil
+size: 2
+pumpAmount: 99999999
+hasPower: true
+consumes: {
+  power: 0.1
+}
+requirements: [
+  graphite/0
+], 
+category: production
+alwaysUnlocked: true

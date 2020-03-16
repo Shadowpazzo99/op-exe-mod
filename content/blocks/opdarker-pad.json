@@ -1,0 +1,14 @@
+{
+    "type": "MechPad",
+    "mech": "opdarker",
+    "name": "opship pad",
+    "description": "it trasform you in a op dark ship.",
+    "size": 2,
+    "consumes":
+    {"power": 1},
+    "requirements": [
+        { "item": "copper", "amount": 0 }
+    ],
+    "category": "upgrade",
+    "research": "delta-mech-pad"
+}

@@ -1,0 +1,12 @@
+{
+	"name": "procore",
+	"description": "is a swagger and really op core.",
+	"type": "CoreBlock",
+	"health": 99999999999,
+	"size": 3,
+	"itemCapacity": 4000,
+	"requirements": [],
+	"stateRules": "infiniteResources",
+	"alwaysUnlocked": "true",
+	"category": "effect"
+}

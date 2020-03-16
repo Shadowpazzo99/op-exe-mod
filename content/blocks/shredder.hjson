@@ -1,0 +1,43 @@
+type: ItemTurret
+name: siege turret
+description: Small turret made for siege.
+
+size: 1
+health: 99999
+range: 9999
+ammoUseEffect: none
+maxAmmo: 100
+inaccuracy: 0
+rotatespeed: 12
+reload: 1
+shootSound: none
+	
+ammo: {
+	scrap: {
+		speed: 10
+		damage: 100
+		bulletWidth: 5
+		bulletHeight: 7
+		shootEffect: shootSmall
+		smokeEffect: shootSmallSmoke
+		ammoMultiplier: 20
+	}
+	coal: {
+		speed: 10
+		damage: 100
+		bulletWidth: 5
+		bulletHeight: 7
+		frontColor: FFA500
+		backColor: FFA500
+		status: burning
+		statusDuration: 600
+		shootEffect: shootSmall
+		smokeEffect: shootSmallSmoke
+		ammoMultiplier: 20
+	}
+}
+requirements: [
+	scrap/0
+]
+category: turret
+alwaysUnlocked: true

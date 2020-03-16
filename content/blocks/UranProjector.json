@@ -1,0 +1,24 @@
+{
+	"name": "op projector ",
+	"description": "mhhm seems gooooood",
+	"type": "OverdriveProjector",
+	"health": 99999,
+	"size": 2,
+	"range":250,
+	"speedBoost": 10,
+	"consumes":{
+        	"items": {
+			"items": [
+				{ "item": "copper", "amount": 0 }
+				
+			],
+			"booster":false
+		}
+},
+	"requirements": [
+		{ "item": "copper", "amount": 1 	},
+	],
+	"boost":false,
+	"category": "effect",
+	"research": "overdrive-projector"
+}

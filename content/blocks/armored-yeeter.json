@@ -1,0 +1,16 @@
+{
+	"type": "LiquidExtendingBridge",
+	"name": "op liquid bridge",
+	"description": "finally a op version.",
+	"health": 99999,
+	"hasPower": false,
+	"BlockGroup": "liquids",
+	"requirements": [
+		{"item": "titanium", "amount": 0}
+	],
+	"category": "liquid",
+	"research": "bridge-conduit",
+	"LiquidCapacity": 100,
+	"range": 100,
+	"speed": 100,
+}

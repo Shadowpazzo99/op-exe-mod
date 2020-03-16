@@ -1,0 +1,25 @@
+{
+	"name": "shielded wall",
+	"description": "a wall",
+	"type": "ForceProjector",
+	"health": 1200,
+	"size": 1,
+	"radius":10.0,
+	"phaseRadiusBoost":11.0,
+	"consumes":{
+	  	"items": {
+			"items": [
+				{ "item": "silicon", "amount": 1}
+				
+			],
+			"booster":true
+		}
+	    },
+	"requirements": [
+		{ "item": "titanium", "amount": 0}
+		
+	],
+	"boost":true,
+	"category": "defense",
+	"research": "titanium-wall"
+}
