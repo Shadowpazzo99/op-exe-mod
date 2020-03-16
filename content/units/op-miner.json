@@ -1,0 +1,26 @@
+{
+	"type": "MinerDrone",
+	"name": "op miner",
+	"description": "op miner",
+	"maxVelocity": 70,
+	"speed": 0.3,
+	"flying": true,
+	"health": 40,
+	"engineOffset": 2.0,
+	"engineSize": 3, 
+	"rotateSpeed": 3,
+	"mass": 60,
+	"tomine":"thorium",
+	"drillPower":100.0,
+	"itemCapacity": 100,
+	"range":100,
+	"minePower": 100.0,
+	"weapon": {
+		"name": "UranLancer",
+		"length": 2.0,
+		"damage": 6.0,
+		"reload": 8.0,
+		"alternate": true,
+		"bullet": "lancerLaser"
+	}
+}

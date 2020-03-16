@@ -1,0 +1,32 @@
+{
+    "type": "groundUnit",
+    "name": "GREEEEEEEENNN",
+    "description": "he is green",
+    "speed": 0.2,
+    "flying":false,
+    "engineSize": 0.1,
+    "engineOffset": 1,
+    "hitsize": 7,
+    "health": 500000,
+    "itemCapacity": 60,
+    "targetAir":true,
+    "range": 1,
+    "weapon":{
+        "name": "iron-claw",
+        "length":1,
+        "width":1,
+        "reload":70,
+        "shots":2,
+        "velocityRnd": 0.1,
+        "inaccuracy": 0,
+        "alternate": true,
+        "ejectEffect": "shellEjectSmall",
+        "bullet": {
+				"type": "BasicBulletType",
+				"lifetime": 10,
+				"speed": 5,
+				"damage": 65,
+		},
+        "shootSound": "shootSnap"
+    }
+}
