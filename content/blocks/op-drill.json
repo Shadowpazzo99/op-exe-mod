@@ -4,7 +4,7 @@
 	"type": "Drill",
 	"size": 3,
 	"tier": 100,
-	"drillTime": 0.000001,
+	"drillTime": 0.01,
 	"requirements": [],
 	"category": "production",
 	"research": "graphite-press"
