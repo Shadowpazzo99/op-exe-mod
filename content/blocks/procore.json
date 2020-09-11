@@ -4,7 +4,7 @@
 	"type": "CoreBlock",
 	"health": 99999999999,
 	"size": 3,
-	"itemCapacity": 4000,
+	"itemCapacity": 40000,
 	"requirements": [],
 	"stateRules": "infiniteResources",
 	"alwaysUnlocked": "true",
