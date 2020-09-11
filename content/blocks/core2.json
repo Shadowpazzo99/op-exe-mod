@@ -1,6 +1,6 @@
 {
 	"name": "core",
-	"description": "a buildable one and is op.",
+	"description": "a buildable standard core.",
 	"type": "CoreBlock",
 	"health": 3000,
 	"size": 3,
